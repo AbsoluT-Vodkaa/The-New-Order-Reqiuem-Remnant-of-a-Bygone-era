@@ -1,27 +1,47 @@
 # The SSR is taking its land back
 
-Focus_tree = {
+focus_tree = {
   id = KSCWT
 
-      Country = {  
-      Factor = 1
-        Modifier = { 
-          Add = 10
-          Tag = KSR
+      country = {  
+        trigger = {
+          tag = KSR
+
+            }
+           }
 
   # the civil war sparks 
     
 
-    Focus = {
-            ID: KSCWT starts
-            Icon: X
+    focus = {
+            id = KSCWT_starts
+            icon = X
             x = 0
             y = 0
             cost = 0
 
-                Completion Reward = {
-                            
+             will_lead_to_war_with = PKS
+             will_lead_to_war_with = OSK
+             will_lead_to_war_with = DRK
 
+             complete_effect = {
+
+               declare_war_on = {
+                 target = PKS
+                  type = annex_everything
+                  } 
+
+               declare_war_on = {
+                 target = OSK
+                  type = annex_everything
+                  }
+
+               declare_war_on = {
+                 target = DRK
+                  type = annex_everything
+                  }
+          } 
+        }
 
 
               
