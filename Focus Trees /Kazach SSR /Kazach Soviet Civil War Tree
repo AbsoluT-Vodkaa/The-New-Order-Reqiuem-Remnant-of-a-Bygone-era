@@ -18,7 +18,7 @@ focus_tree = {
             icon = X
             x = 0
             y = 0
-            cost = 0
+            cost = 1
 
              will_lead_to_war_with = PKS
              will_lead_to_war_with = OSK
@@ -45,3 +45,6 @@ focus_tree = {
 
 
               
+
+  # full mobilization
+
