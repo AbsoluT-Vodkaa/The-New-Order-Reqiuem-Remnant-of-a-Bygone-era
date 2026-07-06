@@ -2,4 +2,13 @@
 
 focus_tree = {
      id = PKCW_tree_FKAZ
-      
+
+     country = {
+       factor = 0
+       modifier = {
+
+           add = 10
+           tag = KAZ
+
+      }
+}
