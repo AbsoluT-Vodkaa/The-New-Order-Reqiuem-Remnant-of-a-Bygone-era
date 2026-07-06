@@ -19,5 +19,12 @@ country_event = {
                add_political_power = -100
                add_stability = -0.15
   
-  }
+               create_country_leader = { 
+               name =  ""
+               desc = "vacant leader"
+               picture = x
+               ideology = neutrality
+ 
+              }
+       }
 }
