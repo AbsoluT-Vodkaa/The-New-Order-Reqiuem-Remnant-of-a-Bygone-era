@@ -8,10 +8,10 @@ When Bukharins Soviet Uniom got invaded by germany during barbarossa kazachstan 
 
 At the end of 1962, the kazach SSR breaks into civil war...
 
-Unificators
-RK Stannien
-Ordenstaat Turkestan
-Kazach SSR
+Unificators:
+RK Stannien,
+Ordenstaat Turkestan,
+Kazach SSR,
 Kazach Libertation Front (Ofn faction)
 
 
