@@ -1,1 +1,23 @@
 
+# Dinmukhamed Kunaev Gets Assasinated #
+
+country_event = {
+    id = Dinmukhamed_Kunaev_assasinated.1
+    title = assasination_in_the_steppe.t
+    desc = assasination_in_the_steppe.d
+    Picture = x
+
+     is_triggered_only = no
+
+      trigger = {
+          tag = KAZ
+          date > 1962.03.20
+      }
+
+      option = { 
+            name = assasination_in_the_steppe.a
+               add_political_power = -100
+               add_stability = -0.15
+  
+  }
+}
